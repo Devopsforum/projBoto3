@@ -6,3 +6,5 @@ Boto3 automation of AWS instances using python
 'pip3 install pipenv'
 
 'pipenv install boto3'
+
+'pipenv install -d ipython'
