@@ -21,6 +21,11 @@ Boto3 automation of AWS instances using python
 'session = boto3.Session(profile_name='shotty')'
 
 'ec2 = session.resource('ec2')'
-'for i in ec2.instances.all()'
+'for i in ec2.instances.all():'
+'    print(i)'
 
 #the above lines of code tell that we are executing the session for the user-profile shotty which we created in our previous steps at the #time of AWS setup.
+
+#the above lines of code will give list of details of the running instances.
+
+
